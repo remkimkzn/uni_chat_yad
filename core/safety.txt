@@ -5,3 +5,4 @@
 4. Firewall ок 80/443 и shh(c ограничениями)
 5. Перебор Fail2ban
 6. apt unattended-ugrades
+теперь performance.txt
