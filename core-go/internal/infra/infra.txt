@@ -1,0 +1,7 @@
+Тут грязный мир *
+    Redis
+    Postgres
+    OpenAI SDK
+    RabbitMQ
+    logger
+Каждый реализует интерфейсы из ports.
