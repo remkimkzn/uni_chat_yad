@@ -5,3 +5,4 @@
     RabbitMQ
     logger
 Каждый реализует интерфейсы из ports.
+Да хоть Redis на DynamoDB - ядро не изменится

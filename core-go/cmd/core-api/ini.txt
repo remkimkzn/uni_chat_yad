@@ -1,1 +1,7 @@
 # HTTP/gRPC - вход в ядро (тонки слой)
+маппинг HTTP- model.Message
+вызов router.HandleMessage
+вернуть JSON
+мапппинг model.ResponseEnvelope-HTTP ответ 
+если захочу сменить ядро не трогаю
+никакой логики

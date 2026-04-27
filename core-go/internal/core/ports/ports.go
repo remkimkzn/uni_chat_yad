@@ -1,5 +1,6 @@
 /* Набор правил сделали = абстракция форма есть не важно кто 
-	ядро знает только эти интерфесы - не Redis/OpenAI*/  
+	ядро знает только эти интерфесы - не Redis/OpenAI
+	StateStore, AIClient, EventBus, Logger, ConfigProvider*/  
 
 package ports
 import "context"
