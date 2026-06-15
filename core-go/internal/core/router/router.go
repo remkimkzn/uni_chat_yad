@@ -1,0 +1,24 @@
+/* Здесь валидация входного Message, 
+определение bot_id, tenant_id,
+загрузка состония,
+вызов logicEngine,
+сборка ответа.
+Никаких HTTP - только функция */
+package router 
+
+import (
+	"context"
+	"time"
+
+	"core-go/internal/core/model"
+	"core-go/internal/core/ports"
+)
+
+type Router struct {
+	StateStore ports.StateStore
+	Logi
+}
+
+func (r *Router) HandleMessage(ctx context.Context, msg model.Message) (model.ResponseEnvelope, error)
+
+
